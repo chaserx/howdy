@@ -1,27 +1,27 @@
 # hello
 
-TODO: Write a description here
+A 'Hello World!' exercise in [Crystal](https://crystal-lang.org/)
 
 ## Installation
 
-TODO: Write installation instructions here
+Follow [installation docs](https://crystal-lang.org/docs/installation/on_mac_osx_using_homebrew.html)
 
 ## Usage
 
-TODO: Write usage instructions here
+`./hello`
 
 ## Development
 
-TODO: Write development instructions here
+https://crystal-lang.org/docs/using_the_compiler/index.html
 
-## Contributing
+**Running**
 
-1. Fork it ( https://github.com/chaserx/hello/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+`crystal run ./src/hello.cr`
 
-## Contributors
+**Building**
 
-- [chaserx](https://github.com/chaserx) Chase Southard - creator, maintainer
+`crystal build ./src/hello.cr`
+
+**Testing**
+
+`crystal spec`
