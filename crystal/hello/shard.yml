@@ -1,0 +1,13 @@
+name: hello
+version: 0.1.0
+
+authors:
+  - Chase Southard <chase.southard@gmail.com>
+
+targets:
+  hello:
+    main: src/hello.cr
+
+crystal: 0.20.1
+
+license: MIT
