@@ -1,5 +1,9 @@
 require "./hello/*"
 
 module Hello
-  # TODO Put your code here
+  def self.ohai
+    "Hello World!"
+  end
+
+  puts ohai
 end
